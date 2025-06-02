@@ -42,7 +42,7 @@ export default function WelcomePage() {
     }, [charIndex, lineIndex, typingStarted]);
 
     return (
-        <section className="z-20 p-6 text-white w-full h-100 px-20 py-10 mx-auto">
+        <section className="z-20 p-6 text-white w-full h-100 px-20 py-27 mx-auto">
             <h1 className="text-4xl font-bold mb-4">Welcome</h1>
             <pre className="text-lg py-5 leading-relaxed whitespace-pre-wrap font-sans">
         {typedText}

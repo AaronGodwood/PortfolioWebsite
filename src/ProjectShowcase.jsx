@@ -215,8 +215,8 @@ export default function ProjectsCarousel() {
                                 }}
                                 className={`
                   relative flex-shrink-0 w-106 h-106 rounded-lg overflow-hidden cursor-pointer
-                  transition-transform duration-300 snap-center
-                  ${isActive ? "scale-100 shadow-2xl border-4 border-blue-500" : "opacity-70 hover:opacity-100"}
+                  transition-transform duration-300 snap-center 
+                  ${isActive ? "scale-100 shadow-2xl": "opacity-70 hover:opacity-100"}
                 `}
                             >
                                 <img
